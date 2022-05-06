@@ -29,15 +29,20 @@
 }
 
 .bb,
-.candy-list {
+.candy-list,
+.dogs-list,
+.president-list {
   display: flex;
   flex-wrap: wrap;
 }
 
 .bb-player,
-.candy-item {
+.candy-item,
+.dog-item,
+.president-item {
   background-color: white;
   color: black;
+  width: 200px;
   padding: 10px;
   margin: 20px;
 }

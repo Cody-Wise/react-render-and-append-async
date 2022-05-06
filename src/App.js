@@ -33,10 +33,14 @@ function App() {
           <Spinner />
         ) : (
           <div>
+            <h2>Basketball Players</h2>
             <BpList basketballPlayers={basketballPlayers} />
+            <h2>Candies</h2>
             <CandiesList candies={candies} />
+            <h2>Dogs</h2>
             <DogsList dogs={dogs} />
-            <PresidentsList president={presidents} />
+            <h2>Presidents</h2>
+            <PresidentsList presidents={presidents} />
           </div>
         )}
       </header>
