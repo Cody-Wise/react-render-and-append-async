@@ -4,9 +4,9 @@ export default function CandyItem({ candy }) {
   return (
     <div className="candy-item">
       <p>{candy.name}</p>
-      <p>{candy.type}</p>
-      <p>{candy.price}</p>
-      <p>{candy.genre}</p>
+      <p>Type: {candy.type}</p>
+      <p>Price: {candy.price}</p>
+      <p>Genre: {candy.genre}</p>
     </div>
   );
 }
