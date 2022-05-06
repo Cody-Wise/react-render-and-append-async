@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.bb,
+.candy-list,
+.dogs-list,
+.president-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bb-player,
+.candy-item,
+.dog-item,
+.president-item {
+  background-color: white;
+  color: black;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
