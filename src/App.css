@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.bb,
+.candy-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bb-player,
+.candy-item {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
